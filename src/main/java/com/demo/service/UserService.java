@@ -7,4 +7,6 @@ import com.demo.dto.ResponseDTO;
 public interface UserService {
 
 	public List<ResponseDTO> getUser();
+
+	public String createUser(String fname, String lname);
 }
